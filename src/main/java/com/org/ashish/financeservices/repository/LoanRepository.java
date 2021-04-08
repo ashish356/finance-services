@@ -1,10 +1,11 @@
 package com.org.ashish.financeservices.repository;
 
-import com.org.ashish.financeservices.model.FixedDeposit;
+import com.org.ashish.financeservices.model.Loan;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface FixedDepositRepository extends JpaRepository<FixedDeposit,Long>
+public interface LoanRepository extends JpaRepository<Loan,Long>
 {
+
 }
